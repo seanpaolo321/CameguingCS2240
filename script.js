@@ -1,4 +1,4 @@
-// Add script for automatic slideshow
+
 document.addEventListener("DOMContentLoaded", function () {
     showSlides();
 });
@@ -22,6 +22,6 @@ function showSlides() {
                 slideIndex = 1;
             }
             slides[slideIndex - 1].style.display = "block";
-        }, 2000); // Adjust the interval (in milliseconds) between slides
+        }, 2000);
     });
 }
